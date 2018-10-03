@@ -1,0 +1,38 @@
+body {
+	max-width: 100em;
+	margin: 1em auto;
+	background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+
+.row{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.row section {
+	border: 0;
+
+}
+
+header, footer {
+	border: 1px solid gray;
+	padding: 1em;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.pd2{
+	padding-left: 2em;
+}
+
+.imgrap img{
+	width: 4em;
+	height: 4em;
+	justify-content: space-around;
+	flex-flow: row wrap;
+	margin: 1em;
+
+}

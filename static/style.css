@@ -1,0 +1,37 @@
+body {
+	max-width: 100em;
+	margin: 1em auto;
+	background-color: red;
+}
+
+.row{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.row section {
+	border: 0;
+
+}
+
+header, footer {
+	border: 1px solid gray;
+	padding: 1em;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.pd2{
+	padding-left: 2em;
+}
+
+.imgrap img{
+	width: 4em;
+	height: 4em;
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+}
